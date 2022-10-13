@@ -2,13 +2,11 @@
 
 int main(void)
 /**
- * main - Entry point
+ * main - main function
  *
- * Description: 'the program pritns a string'
- *
- * Return: Always 0 (Success)
+ * Return: Always return (0)
  */
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
