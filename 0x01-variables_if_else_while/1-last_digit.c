@@ -11,14 +11,12 @@
 
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	int n, i, f;
 
 	char a[10];
 
-	int i, f;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	sprintf(a, "%d", n);
 
