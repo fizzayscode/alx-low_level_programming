@@ -18,12 +18,12 @@ int main(void)
 
 	char a[10];
 
+	int i, f;
+
 	sprintf(a, "%d", n);
-	int i;
 
 	for (i = 0; a[i] != '\0'; i++)
 		;
-	int f;
 
 	if (n < 0)
 	f = -(a[i - 1] - 48);
