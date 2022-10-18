@@ -20,6 +20,6 @@ void print_char(void)
  */
 int main(void)
 {
-	print_putchar();
+	print_char();
 	return (0);
 }
