@@ -3,7 +3,7 @@
 /**
  * print_sign - check integer if its positive or negative
  *
- * @a: is the integer we will check
+ * @n: is the integer we will check
  *
  * Return: return 1 if sign is positive else -1 idf sign is negative
 */
