@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower - check integer intered is lowercase of not
+ * _isalpha - check integer is an alphabets or not
  *
  * @c: is the integer we will check
  *
