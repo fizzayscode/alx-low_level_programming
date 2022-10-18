@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * int _abs - print positive value regardless
+ *_abs - print positive value regardless
  *
  * @n: the integer to print the sign of
+ *
+ * Description: program that returns postive values
  *
  * Return: positive value > 1
  */
