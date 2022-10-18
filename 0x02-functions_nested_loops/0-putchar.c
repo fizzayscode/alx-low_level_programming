@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check the code
+ * print_char - secondary function
  *
- * Description : prints putchar
+ * Description: print the string "_putchar"
  *
- * Return: Always 0.
+ * Return: return nothing
  */
 void print_char(void)
 {
