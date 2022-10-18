@@ -4,14 +4,13 @@
 /**
  * _islower - secondary function
  *
- * Description: checks i input is lowercase
+ * @c: checks c input is lowercase
  *
- * Return: return nothing
+ * Return: return 1 if uppercase
  */
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
-	else
-		return (0);
+	return (0);
 }
