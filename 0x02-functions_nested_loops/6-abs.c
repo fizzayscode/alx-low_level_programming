@@ -12,6 +12,9 @@ int _abs(int n)
 	int w = 0;
 
 	if (n < 0)
+	{
 		w = n * -1;
-	return (w);
+		return (w);
+	}
+	return (n);
 }
