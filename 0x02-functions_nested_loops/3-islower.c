@@ -5,7 +5,7 @@
  *
  * @alpha: is the integer we will check
  *
- * Return: return 1 if lowercase and 1 is not
+ * Return: return 0 or 1
  */
 
 int _islower(int alpha)
