@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _isupper - check the code.
  *
  *@c: the input is c to check if its capiatal
- * Return: Always 0.
+ * Return: return 1 if uppercase else 0
  *
  */
 int _isupper(int c)
