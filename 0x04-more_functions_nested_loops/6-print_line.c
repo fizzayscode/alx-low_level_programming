@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_line - check for digit
+ * print_line - check for digit
  *
  * @c: how many times we want to print
  *
