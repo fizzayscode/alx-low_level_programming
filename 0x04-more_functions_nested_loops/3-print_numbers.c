@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit - check for digit
+ * print_numbers - check for digit
  *
  *Description: prints numbers from 1 to 9
  * Return: 1 if digit or 0 if not
