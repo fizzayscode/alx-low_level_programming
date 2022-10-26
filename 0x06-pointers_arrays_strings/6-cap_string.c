@@ -10,7 +10,7 @@ char *cap_string(char *a)
 {
 	int i;
 
-	for (i = 0; c[i] != '\0'; i++)
+	for (i = 0; a[i] != '\0'; i++)
 	{
 	if (a[i] == ' ' || a[i] == '\n' || a[i] == '\t' || a[i] == '.')
 	{
