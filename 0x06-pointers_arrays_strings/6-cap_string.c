@@ -2,35 +2,29 @@
 /**
  * cap_string - capitalise all words
  *
- * @a: paragraph to capicalise
+ * @c: paragraph to capicalise
  *
  * Return: capitalised string
  */
-char *cap_string(char *a)
+char *cap_string(char *c)
 {
 	int i;
 
-	for (i = 0; a[i] != '\0'; i++)
+	for (i = 0; c[i] != '\0'; i++)
 	{
-	if (a[i] == 32 ||
-			a[i] == '\n' ||
-			a[i] == '\t' ||
-			a[i] == '.' ||
-			a[i] == ';' ||
-			a[i] == '!' ||
-			a[i] == '?' ||
-			a[i] == '"' ||
-			a[i] == '(' ||
-			a[i] == ')' ||
-			a[i] == '{' ||
-			a[i] == '}' ||
-			a[i] == 0)
-	{
-		++i;
-		if (a[i] >= 'a' && a[i] <= 'z')
-			a[i] = a[i] - 32;
+	if ((i == 0 ||
+	   c[i - 1] == '\n' ||
+	   c[i - 1] == '\t' ||
+	   c[i - 1] == '.' ||
+	   c[i - 1] == ';' ||
+	   c[i - 1] == '!' ||
+	   c[i - 1] == '?' ||
+	   c[i - 1] == '"' ||
+	   c[i - 1] == '(' ||
+	   c[i - 1] == ')' ||
+	   c[i - 1] == '{' ||
+	   c[i - 1] == '}' ||
+	   c[i - 1] == 32) && c[i] >= 97 && c[i] <= 122)
+	c[i] = c[i] - 32;
 	}
-	}
-
-	return (a);
-}
+	return (c);
