@@ -12,7 +12,7 @@ char *cap_string(char *a)
 
 	for (i = 0; a[i] != '\0'; i++)
 	{
-	if (a[i] == ' ' ||
+	if (a[i] == 32 ||
 			a[i] == '\n' ||
 			a[i] == '\t' ||
 			a[i] == '.' ||
