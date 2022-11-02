@@ -8,7 +8,7 @@
  *
  * Return: return natural square root of a number
  */
-static int num(int m, int n)
+int num(int m, int n)
 {
 	if ((n * n) == m)
 		return (n);
